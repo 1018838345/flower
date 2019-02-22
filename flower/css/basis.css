@@ -1,0 +1,26 @@
+html,body,h1,h2,h3,h4,h5,h6,p,pre,ul,ol,li,form,input,textarea{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+body{
+    font:16px 'Microsoft YaHei ','sans-serif';
+    color:#333333;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+.nav {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: 79px;
+    background: #fff;
+
+}
+.main{
+    padding-top: 79px;
+}

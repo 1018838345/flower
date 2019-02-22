@@ -1,0 +1,144 @@
+
+.nav{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height:79px;
+    background:rgba(0,0,0,0.1);
+}
+.navContent{
+    width:1070px;
+    height: 100%;
+    /*background:red;*/
+    margin:0 auto;
+}
+.logo{
+    width:150px;
+    height:50px;
+    /*background: green;*/
+    float: left;
+    margin-top:14px;
+}
+/*  a是行内标签   没有宽高属性*/
+.logo a{
+    display:block;
+    width: 100%;
+    height:100%;
+}
+.logo a img{
+    width: 100%;
+    height:100%;
+}
+.navList{
+    width:602px;
+    height:79px;
+    /*background:blue;*/
+    float: right;
+
+}
+.navList li{
+    float:left;
+    width: 86px;
+    height: 100%;
+    /*background: red;*/
+}
+.navList li a{
+    display: block;
+    width:100%;
+    height:100%;
+    text-align: center;
+    line-height:79px;
+    font-size:14px;
+    transition:color linear 0.5s;
+    /*属性  方向  延迟*/
+}
+.navList li a:hover{
+    color:#16b0dc;
+}
+/*  nav  */
+.banner{
+    width: 100%;
+    height: 300px;
+}
+.banner img{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+
+}
+
+.font{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+.fontWord {
+    text-align: center;
+
+
+}
+.fontWord p{
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    margin: 0 0 11px;
+    font-weight: 300;
+    box-sizing: border-box;
+    white-space: pre;
+
+}
+.image{
+    margin: 0 auto;
+    text-align:center;
+}
+/*font*/
+
+.footer{
+    padding: 10px;
+    text-align:center;
+    width: 100%;
+    height: 150px;
+    background: #aaaaaa;
+
+}
+.pic{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+}
+.pic img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.footer-con .btn p{
+    color: gainsboro;
+    /*height: 30px;*/
+    margin-top: 10px;
+    font:14px "Microsoft YaHei UI",san-serif;
+    text-align:center;
+
+}
+.btn a:hover{
+    text-decoration:underline;
+    color: #16b0dc;
+    transition:color linear 0.5s;
+
+}
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
